@@ -16,6 +16,7 @@
     "autoprefixer": "10.4.19",
     "postcss": "8.4.38",
     "@supabase/supabase-js": "^2.45.0",
+    "cloudinary": "1.41.0",
     "resend": "^3.0.0",
     "stripe": "^16.5.0"
   }

@@ -20,6 +20,8 @@ export default function Home() {
 
   if (loading) return <div className="min-h-screen bg-black text-white p-4 text-center">Yükleniyor...</div>;
 
+  // ... (Kodun üst kısmı aynı kalacak)
+
   return (
     <div className="min-h-screen bg-black text-white p-4">
       <h1 className="text-4xl font-bold text-center mb-6 text-blue-400">Vera Social</h1>
@@ -29,12 +31,11 @@ export default function Home() {
         {posts.map(post => (
           <div key={post.id} className="bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-700">
             <p className="text-lg mb-2">{post.text}</p>
-            {post.image_url && <img src={post.image_url} alt="Post" className="w-full mt-3 rounded-lg max-h-96 object-cover" />}
+            {/* Resim gösterme kodu kaldırıldı, sadece metin kalıyor */}
             <p className="text-xs text-gray-500 mt-2">ID: {post.id}</p>
           </div>
         ))}
       </div>
     </div>
   );
-    }
-    
+}

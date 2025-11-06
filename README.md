@@ -1,0 +1,1 @@
+# Vera App Başlangıç Projesi
